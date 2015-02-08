@@ -1,0 +1,26 @@
+;; db.fftr
+;; Forward lookup zone for fftr
+;;
+$TTL 2D
+@       IN      SOA     fftr. root.fftr. (
+                        2015020801      ; Serial
+                                1H      ; Refresh
+                                1H      ; Retry
+                                4W      ; Expire
+                                1H )    ; NX (TTL Negativ Cache)
+
+@                  IN NS    ns
+
+draco              IN A     10.172.0.11
+elmira             IN A     10.172.0.12
+salem              IN A     10.172.0.13
+
+1.ntp.services     IN CNAME draco
+2.ntp.services     IN CNAME elmira
+
+1.updates.services IN CNAME draco
+2.updates.services IN CNAME elmira
+
+;this is draco, but CNAME is forbidden here
+ns                 IN A     10.172.0.11
+
