@@ -3,7 +3,7 @@
 ;;
 $TTL 2D
 @       IN      SOA     fftr. root.fftr. (
-                        2015020801      ; Serial
+                        2015022101      ; Serial
                                 1H      ; Refresh
                                 1H      ; Retry
                                 4W      ; Expire
@@ -15,6 +15,8 @@ draco              IN A     10.172.0.11
 draco              IN AAAA  fdca:ffee:fc0f::11
 elmira             IN A     10.172.0.12
 salem              IN A     10.172.0.13
+
+router             IN A     10.172.0.1
 
 1.ntp.services     IN CNAME draco
 2.ntp.services     IN CNAME elmira
