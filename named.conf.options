@@ -23,7 +23,7 @@ options {
 	auth-nxdomain no;    # conform to RFC1035
 	listen-on-v6 { any; };
 
-	allow-recursion { 10.172.0.0/16; };
+	allow-recursion { 10.172.0.0/16; fdca:ffee:fc0f::/64 };
 
 	allow-transfer{none;};
 
