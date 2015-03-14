@@ -12,7 +12,7 @@ $TTL 2D
 @                  IN NS    ns
 
 draco              IN A     10.172.0.11
-draco              IN AAAA  fdca:ffee:fc0f::11
+draco              IN AAAA  2001:bf7:fc0f::11
 elmira             IN A     10.172.0.12
 salem              IN A     10.172.0.13
 
