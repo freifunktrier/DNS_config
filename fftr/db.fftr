@@ -27,3 +27,4 @@ router             IN A     10.172.0.1
 ;this is draco, but CNAME is forbidden here
 ns                 IN A     10.172.0.11
 
+munin.draco        IN CNAME draco
