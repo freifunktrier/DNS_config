@@ -1,9 +1,9 @@
 ;; db.fftr
 ;; Forward lookup zone for fftr
 ;;
-$TTL 2D
+$TTL 2H
 @       IN      SOA     fftr. root.fftr. (
-                        2015031501      ; Serial
+                        2015031502      ; Serial
                                 1H      ; Refresh
                                 1H      ; Retry
                                 4W      ; Expire
