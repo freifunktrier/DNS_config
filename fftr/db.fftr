@@ -1,9 +1,9 @@
 ;; db.fftr
 ;; Forward lookup zone for fftr
 ;;
-$TTL 2D
+$TTL 2H
 @       IN      SOA     fftr. root.fftr. (
-                        2015022101      ; Serial
+                        2015031502      ; Serial
                                 1H      ; Refresh
                                 1H      ; Retry
                                 4W      ; Expire
@@ -12,7 +12,7 @@ $TTL 2D
 @                  IN NS    ns
 
 draco              IN A     10.172.0.11
-draco              IN AAAA  fdca:ffee:fc0f::11
+draco              IN AAAA  2001:bf7:fc0f::11
 elmira             IN A     10.172.0.12
 salem              IN A     10.172.0.13
 
@@ -30,3 +30,4 @@ map.services       IN CNAME draco
 ;this is draco, but CNAME is forbidden here
 ns                 IN A     10.172.0.11
 
+munin.draco        IN CNAME draco
