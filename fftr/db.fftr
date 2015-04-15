@@ -24,6 +24,9 @@ router             IN A     10.172.0.1
 1.updates.services IN CNAME draco
 2.updates.services IN CNAME elmira
 
+munin.services     IN CNAME draco
+map.services       IN CNAME draco
+
 ;this is draco, but CNAME is forbidden here
 ns                 IN A     10.172.0.11
 
