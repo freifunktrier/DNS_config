@@ -14,6 +14,7 @@ $TTL 2H
 draco              IN A     10.172.0.11
 draco              IN AAAA  2001:bf7:fc0f::11
 elmira             IN A     10.172.0.12
+elmira              IN AAAA  2001:bf7:fc0f::12
 salem              IN A     10.172.0.13
 
 router             IN A     10.172.0.1
@@ -29,5 +30,6 @@ map.services       IN CNAME draco
 
 ;this is draco, but CNAME is forbidden here
 ns                 IN A     10.172.0.11
+ns                 IN A     10.172.0.12
 
 munin.draco        IN CNAME draco
