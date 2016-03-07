@@ -3,7 +3,7 @@
 ;;
 $TTL 2H
 @       IN      SOA     fftr. root.fftr. (
-                        2016022101      ; Serial
+                        2016030701      ; Serial
                                 1H      ; Refresh
                                 1H      ; Retry
                                 4W      ; Expire
@@ -13,8 +13,8 @@ $TTL 2H
 
 draco              IN A     10.172.0.11
 draco              IN AAAA  2001:bf7:fc0f::11
-elmira             IN A     10.172.0.12
-elmira             IN AAAA  2001:bf7:fc0f::12
+ankerstich         IN A     10.172.0.12
+ankerstich         IN AAAA  2001:bf7:fc0f::12
 salem              IN A     10.172.0.13
 salem              IN AAAA  2001:bf7:fc0f::13
 baldur             IN A     10.172.0.14
@@ -22,10 +22,10 @@ baldur             IN AAAA  2001:bf7:fc0f::14
 router             IN A     10.172.0.1
 
 1.ntp.services     IN CNAME draco
-;2.ntp.services     IN CNAME elmira
+;2.ntp.services     IN CNAME ankerstich
 
 1.updates.services IN CNAME draco
-;2.updates.services IN CNAME elmira
+;2.updates.services IN CNAME ankerstich
 
 munin.services     IN CNAME draco
 map.services       IN CNAME draco

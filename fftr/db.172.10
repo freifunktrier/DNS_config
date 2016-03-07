@@ -3,7 +3,7 @@
 ;;
 $TTL 2D
 @       IN      SOA     fftr. root.fftr. (
-                        2016022101      ; Serial
+                        2016030701      ; Serial
                                 1H      ; Refresh
                                 1H      ; Retry
                                 4W      ; Expire
@@ -12,7 +12,7 @@ $TTL 2D
 @         IN NS                 ns.fftr.
 
 11.0      IN PTR             draco.fftr.
-12.0      IN PTR            elmira.fftr.
+12.0      IN PTR        ankerstich.fftr.
 13.0      IN PTR             salem.fftr.
 14.0      IN PTR            baldur.fftr.
  1.4      IN PTR freifunk-besslich.fftr.
