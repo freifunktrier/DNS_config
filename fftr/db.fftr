@@ -3,7 +3,7 @@
 ;;
 $TTL 2H
 @       IN      SOA     fftr. root.fftr. (
-                        2016030701      ; Serial
+                        2016030901      ; Serial
                                 1H      ; Refresh
                                 1H      ; Retry
                                 4W      ; Expire
@@ -39,3 +39,5 @@ ns                 IN A     10.172.0.14
 munin.draco        IN CNAME draco
 
 freifunk-besslich  IN A     10.172.4.1
+
+maschinendeck      IN A     10.172.3.42
