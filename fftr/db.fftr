@@ -43,3 +43,5 @@ freifunk-besslich  IN A     10.172.4.1
 maschinendeck      IN A     10.172.3.42
 
 aurora             IN A     10.172.3.128
+
+ffpi               IN A     10.172.5.1
