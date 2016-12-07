@@ -16,5 +16,6 @@ $TTL 2D
 13.0      IN PTR             salem.fftr.
 14.0      IN PTR            baldur.fftr.
  1.4      IN PTR freifunk-besslich.fftr.
+ 3.2      IN PTR       maschinenpi.fftr.
  3.42     IN PTR     maschinendeck.fftr.
- 3.128    IN PTR     aurora.fftr.
+ 3.128    IN PTR            aurora.fftr.

@@ -38,10 +38,12 @@ ns                 IN A     10.172.0.14
 
 munin.draco        IN CNAME draco
 
-freifunk-besslich  IN A     10.172.4.1
+maschinenpi        IN A     10.172.3.2
 
 maschinendeck      IN A     10.172.3.42
 
 aurora             IN A     10.172.3.128
+
+freifunk-besslich  IN A     10.172.4.1
 
 ffpi               IN A     10.172.5.1
