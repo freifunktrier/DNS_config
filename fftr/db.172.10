@@ -3,7 +3,7 @@
 ;;
 $TTL 2D
 @       IN      SOA     fftr. root.fftr. (
-                        2016120801      ; Serial
+                        2016120802      ; Serial
                                 1H      ; Refresh
                                 1H      ; Retry
                                 4W      ; Expire
@@ -15,7 +15,7 @@ $TTL 2D
 12.0      IN PTR        ankerstich.fftr.
 13.0      IN PTR             salem.fftr.
 14.0      IN PTR            baldur.fftr.
- 1.4      IN PTR freifunk-besslich.fftr.
- 3.2      IN PTR       maschinenpi.fftr.
- 3.42     IN PTR     maschinentuer.fftr.
- 3.128    IN PTR            aurora.fftr.
+1.4       IN PTR freifunk-besslich.fftr.
+2.3       IN PTR       maschinenpi.fftr.
+42.3      IN PTR     maschinentuer.fftr.
+128.3     IN PTR            aurora.fftr.
