@@ -3,7 +3,7 @@
 ;;
 $TTL 2D
 @       IN      SOA     fftr. root.fftr. (
-                        2016030901      ; Serial
+                        2016120801      ; Serial
                                 1H      ; Refresh
                                 1H      ; Retry
                                 4W      ; Expire
