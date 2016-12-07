@@ -40,7 +40,7 @@ munin.draco        IN CNAME draco
 
 maschinenpi        IN A     10.172.3.2
 
-maschinendeck      IN A     10.172.3.42
+maschinentuer      IN A     10.172.3.42
 
 aurora             IN A     10.172.3.128
 
