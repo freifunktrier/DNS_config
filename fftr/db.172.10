@@ -20,3 +20,4 @@ $TTL 2D
 2.3       IN PTR       maschinenpi.fftr.
 42.3      IN PTR     maschinentuer.fftr.
 128.3     IN PTR            aurora.fftr.
+141.3     IN PTR      kantinendeck.fftr.
