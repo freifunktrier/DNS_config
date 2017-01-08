@@ -3,7 +3,7 @@
 ;;
 $TTL 2D
 @       IN      SOA     fftr. root.fftr. (
-                        2016120803      ; Serial
+                        2017010801      ; Serial
                                 1H      ; Refresh
                                 1H      ; Retry
                                 4W      ; Expire
@@ -19,5 +19,6 @@ $TTL 2D
 1.5       IN PTR              ffpi.fftr.
 2.3       IN PTR       maschinenpi.fftr.
 42.3      IN PTR     maschinentuer.fftr.
+44.3      IN PTR          backdoor.fftr.
 128.3     IN PTR            aurora.fftr.
 141.3     IN PTR      kantinendeck.fftr.
