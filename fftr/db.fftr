@@ -19,6 +19,8 @@ salem              IN A     10.172.0.13
 salem              IN AAAA  2001:bf7:fc0f::13
 baldur             IN A     10.172.0.14
 baldur             IN AAAA  2001:bf7:fc0f::14
+neso               IN A     10.172.0.15
+neso               IN AAAA  2001:bf7:fc0f::15
 router             IN A     10.172.0.1
 
 1.ntp.services     IN CNAME draco

@@ -15,6 +15,7 @@ $TTL 2D
 12.0      IN PTR        ankerstich.fftr.
 13.0      IN PTR             salem.fftr.
 14.0      IN PTR            baldur.fftr.
+15.0      IN PTR              neso.fftr.
 1.4       IN PTR freifunk-besslich.fftr.
 1.5       IN PTR              ffpi.fftr.
 2.3       IN PTR       maschinenpi.fftr.
