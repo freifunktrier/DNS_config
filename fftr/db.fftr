@@ -24,7 +24,7 @@ neso               IN AAAA  2001:bf7:fc0f::15
 router             IN A     10.172.0.1
 
 1.ntp.services     IN CNAME draco
-;2.ntp.services     IN CNAME ankerstich
+2.ntp.services     IN CNAME draco
 
 1.updates.services IN CNAME draco
 ;2.updates.services IN CNAME ankerstich
