@@ -3,7 +3,7 @@
 ;;
 $TTL 2H
 @       IN      SOA     fftr. root.fftr. (
-                        2017030401      ; Serial
+                        2017032401      ; Serial
                                 1H      ; Refresh
                                 1H      ; Retry
                                 4W      ; Expire
@@ -13,14 +13,16 @@ $TTL 2H
 
 draco              IN A     10.172.0.11
 draco              IN AAAA  2001:bf7:fc0f::11
-ankerstich         IN A     10.172.0.12
-ankerstich         IN AAAA  2001:bf7:fc0f::12
+rogan              IN A     10.172.0.12
+rogan              IN AAAA  2001:bf7:fc0f::12
 salem              IN A     10.172.0.13
 salem              IN AAAA  2001:bf7:fc0f::13
 baldur             IN A     10.172.0.14
 baldur             IN AAAA  2001:bf7:fc0f::14
 neso               IN A     10.172.0.15
 neso               IN AAAA  2001:bf7:fc0f::15
+glubit             IN A     10.172.0.16
+glubit             IN AAAA  2001:bf7:fc0f::16
 router             IN A     10.172.0.1
 
 1.ntp.services     IN CNAME draco
@@ -37,6 +39,8 @@ ns                 IN A     10.172.0.11
 ;ns                 IN A     10.172.0.12
 ns                 IN A     10.172.0.13
 ns                 IN A     10.172.0.14
+ns                 IN A     10.172.0.15
+ns                 IN A     10.172.0.16
 
 munin.draco        IN CNAME draco
 
