@@ -3,7 +3,7 @@
 ;;
 $TTL 2H
 @       IN      SOA     fftr. root.fftr. (
-                        2017032401      ; Serial
+                        2017071301      ; Serial
                                 1H      ; Refresh
                                 1H      ; Retry
                                 4W      ; Expire
@@ -23,6 +23,10 @@ neso               IN A     10.172.0.15
 neso               IN AAAA  2001:bf7:fc0f::15
 glubit             IN A     10.172.0.16
 glubit             IN AAAA  2001:bf7:fc0f::16
+naos               IN A     10.172.0.17
+naos               IN AAAA  2001:bf7:fc0f::17
+errai              IN A     10.172.0.18
+errai              IN AAAA  2001:bf7:fc0f::18
 router             IN A     10.172.0.1
 
 1.ntp.services     IN CNAME draco
