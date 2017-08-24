@@ -27,6 +27,7 @@ naos               IN A     10.172.0.17
 naos               IN AAAA  2001:bf7:fc0f::17
 errai              IN A     10.172.0.18
 errai              IN AAAA  2001:bf7:fc0f::18
+router             IN AAAA  fd6a:2c55:3c00:9d0c::1
 router             IN A     10.172.0.1
 
 1.ntp.services     IN CNAME draco
