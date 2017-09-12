@@ -36,7 +36,7 @@ router             IN A     10.172.0.1
 2.ntp.services     IN CNAME draco
 
 1.updates.services IN CNAME draco
-;2.updates.services IN CNAME ankerstich
+2.updates.services IN CNAME pegol
 
 munin.services     IN CNAME draco
 map.services       IN CNAME draco
