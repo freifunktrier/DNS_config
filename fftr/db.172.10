@@ -3,7 +3,7 @@
 ;;
 $TTL 2D
 @       IN      SOA     fftr. root.fftr. (
-                        2017090701      ; Serial
+                        2017100601      ; Serial
                                 1H      ; Refresh
                                 1H      ; Retry
                                 4W      ; Expire
@@ -20,11 +20,11 @@ $TTL 2D
 17.0      IN PTR              naos.fftr.
 18.0      IN PTR             errai.fftr.
 19.0      IN PTR             pegol-fftr.
-1.4       IN PTR freifunk-besslich.fftr.
-1.5       IN PTR              ffpi.fftr.
-2.3       IN PTR       maschinenpi.fftr.
-17.3      IN PTR              mate.fftr.
-42.3      IN PTR     maschinentuer.fftr.
-44.3      IN PTR          backdoor.fftr.
-128.3     IN PTR            aurora.fftr.
-141.3     IN PTR      kantinendeck.fftr.
+;1.4       IN PTR freifunk-besslich.fftr.
+1.16       IN PTR              ffpi.fftr.
+;2.3       IN PTR       maschinenpi.fftr.
+;17.3      IN PTR              mate.fftr.
+;42.3      IN PTR     maschinentuer.fftr.
+;44.3      IN PTR          backdoor.fftr.
+;128.3     IN PTR            aurora.fftr.
+;141.3     IN PTR      kantinendeck.fftr.

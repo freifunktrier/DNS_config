@@ -3,7 +3,7 @@
 ;;
 $TTL 2H
 @       IN      SOA     fftr. root.fftr. (
-                        2017091201      ; Serial
+                        2017100601      ; Serial
                                 1H      ; Refresh
                                 1H      ; Retry
                                 4W      ; Expire
@@ -51,22 +51,22 @@ ns                 IN A     10.172.0.16
 
 munin.draco        IN CNAME draco
 
-maschinenpi        IN A     10.172.3.2
+;maschinenpi        IN A     10.172.3.2
 
-mate               IN A     10.172.3.17
+;mate               IN A     10.172.3.17
 
-maschinenstatus    IN A     10.172.3.21
+;maschinenstatus    IN A     10.172.3.21
 
-kantinenpi         IN CNAME mate
+;kantinenpi         IN CNAME mate
 
-maschinentuer      IN A     10.172.3.42
+;maschinentuer      IN A     10.172.3.42
 
-backdoor           IN A     10.172.3.44
+;backdoor           IN A     10.172.3.44
 
-aurora             IN A     10.172.3.128
+;aurora             IN A     10.172.3.128
 
-freifunk-besslich  IN A     10.172.4.1
+;freifunk-besslich  IN A     10.172.4.1
 
-ffpi               IN A     10.172.5.1
+ffpi               IN A     10.172.16.1
 
-kantinendeck       IN A     10.172.3.141
+;kantinendeck       IN A     10.172.3.141
