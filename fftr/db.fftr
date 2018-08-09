@@ -3,7 +3,7 @@
 ;;
 $TTL 2H
 @       IN      SOA     fftr. root.fftr. (
-                        2018060701      ; Serial
+                        2018080901      ; Serial
                                 1H      ; Refresh
                                 1H      ; Retry
                                 4W      ; Expire
@@ -59,7 +59,7 @@ munin.draco        IN CNAME draco
 
 ;kantinenpi         IN CNAME mate
 
-;maschinentuer      IN A     10.172.3.42
+maschinentuer      IN A     10.172.0.51
 
 ;backdoor           IN A     10.172.3.44
 
