@@ -3,7 +3,7 @@
 ;;
 $TTL 2H
 @       IN      SOA     fftr. root.fftr. (
-                        2018091101      ; Serial
+                        2018091401      ; Serial
                                 1H      ; Refresh
                                 1H      ; Retry
                                 4W      ; Expire
@@ -35,7 +35,7 @@ router             IN AAAA  fd6a:2c55:3c00:9d0c::1
 1.ntp.services     IN CNAME draco
 2.ntp.services     IN CNAME pegol
 
-1.updates.services IN CNAME pegol
+1.updates.services IN CNAME draco
 2.updates.services IN CNAME pegol
 
 munin.services     IN CNAME draco
