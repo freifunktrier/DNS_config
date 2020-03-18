@@ -3,7 +3,7 @@
 ;;
 $TTL 2H
 @       IN      SOA     fftr. root.fftr. (
-                        2018091401      ; Serial
+                        2020031801      ; Serial
                                 1H      ; Refresh
                                 1H      ; Retry
                                 4W      ; Expire
@@ -25,10 +25,12 @@ glubit             IN A     10.172.0.16
 glubit             IN AAAA  2001:bf7:fc0f::16
 naos               IN A     10.172.0.17
 naos               IN AAAA  2001:bf7:fc0f::17
-errai              IN A     10.172.0.19
-errai              IN AAAA  2001:bf7:fc0f::19
 pegol              IN A     10.172.48.18
 pegol              IN AAAA  2001:bf7:fc0f::18
+erai               IN A     10.172.0.19
+erai               IN AAAA  2001:bf7:fc0f::19
+rustig             IN A     10.172.0.21
+rustig             IN AAAA  2001:bf7:fc0f::21
 router             IN AAAA  fd6a:2c55:3c00:9d0c::1
 ;router             IN A     10.172.0.1
 
@@ -38,8 +40,8 @@ router             IN AAAA  fd6a:2c55:3c00:9d0c::1
 1.updates.services IN CNAME draco
 2.updates.services IN CNAME pegol
 
-munin.services     IN CNAME draco
-map.services       IN CNAME draco
+munin.services     IN CNAME pegol
+map.services       IN CNAME pegol
 
 ;this is draco, but CNAME is forbidden here
 ns                 IN A     10.172.0.11
@@ -48,6 +50,8 @@ ns                 IN A     10.172.0.11
 ns                 IN A     10.172.0.14
 ;ns                 IN A     10.172.0.15
 ns                 IN A     10.172.0.16
+ns                 IN A     10.172.0.21
+
 
 munin.draco        IN CNAME draco
 

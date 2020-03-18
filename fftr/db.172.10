@@ -3,7 +3,7 @@
 ;;
 $TTL 2D
 @       IN      SOA     fftr. root.fftr. (
-                        2017102801      ; Serial
+                        2020031801      ; Serial
                                 1H      ; Refresh
                                 1H      ; Retry
                                 4W      ; Expire
@@ -18,8 +18,9 @@ $TTL 2D
 15.0      IN PTR              neso.fftr.
 16.0      IN PTR            glubit.fftr.
 17.0      IN PTR              naos.fftr.
-18.0      IN PTR             errai.fftr.
+19.0      IN PTR             erai.fftr.
 19.48      IN PTR             pegol-fftr.
+21.0      IN PTR             rustig.fftr.
 ;1.4       IN PTR freifunk-besslich.fftr.
 1.16       IN PTR              ffpi.fftr.
 ;2.3       IN PTR       maschinenpi.fftr.
